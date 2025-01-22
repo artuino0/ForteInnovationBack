@@ -4,7 +4,7 @@ export interface ITransaction extends Document {
   transaccion_id: string;
   cliente_id: mongoose.Schema.Types.ObjectId;
   cantidad: number;
-  categoría: string;
+  categoria: string;
   fecha: number;
   tipo: "ingreso" | "gasto";
   estado: "activa" | "desactivada";

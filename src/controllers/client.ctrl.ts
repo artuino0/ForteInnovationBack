@@ -13,14 +13,6 @@ export const createClient = async (req: Request, res: Response) => {
       direccion,
     });
     await client.save();
-    const existingClient = await Client.findOne({
-      $or: [{ cliente_id }, { email }],
-    });
-    if (existingClient) {
-      return res
-        .status(400)
-        .json({ message: "El cliente ya existe con ese ID o email" });
-    }
 
     res.status(201).json(client);
   } catch (error) {

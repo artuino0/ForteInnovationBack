@@ -7,13 +7,21 @@ export const clientExistsHandler = async (
   next: NextFunction
 ) => {
   const { cliente_id, email } = req.body;
-  const existingClient = await Client.findOne({
-    $or: [{ cliente_id }, { email }],
-  });
-  if (existingClient) {
-    return res
-      .status(400)
-      .json({ message: "El cliente ya existe con ese ID o email" });
+
+  try {
+    const existingClient = await Client.findOne({
+      $or: [{ cliente_id }, { email }],
+    });
+
+    if (existingClient) {
+      return res
+        .status(400)
+        .json({ message: "El cliente ya existe con ese ID o email" });
+    }
+
+    next();
+  } catch (error) {
+    console.error("Error en clientExistsHandler:", error);
+    res.status(500).json({ message: "Error interno del servidor", error });
   }
-  next();
 };
