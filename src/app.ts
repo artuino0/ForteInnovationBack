@@ -1,4 +1,4 @@
-import Server from "@/models/server";
+import Server from "./models/server";
 
 const ForteServer = new Server();
 

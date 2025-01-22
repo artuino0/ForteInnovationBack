@@ -3,7 +3,6 @@ import { env } from "./envLoad";
 
 const databaseConn = async () => {
   const MONGO_URI = env.MONGO_URI || "";
-  console.log("URI", MONGO_URI);
   try {
     await mongoose.connect(MONGO_URI);
     console.log("Database connected");

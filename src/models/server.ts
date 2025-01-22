@@ -1,9 +1,9 @@
 import express, { Application } from "express";
 import morgan from "morgan";
 import cors from "cors";
-import databaseConn from "@/config/mongodb";
-import indexRouter from "@/routes";
-import { env } from "@/config/envLoad";
+import databaseConn from "../config/mongodb";
+import indexRouter from "../routes";
+import { env } from "../config/envLoad";
 
 class Server {
   app: Application;

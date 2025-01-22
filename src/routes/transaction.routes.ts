@@ -5,7 +5,7 @@ import {
   getTransaction,
   getTransactions,
   updateTransaction,
-} from "@/controllers/transaction.ctrl";
+} from "../controllers/transaction.ctrl";
 
 const router = Router();
 

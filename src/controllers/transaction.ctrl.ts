@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Transaction from "@/models/transaction.model";
+import Transaction from "../models/transaction.model";
 
 export const createTransaction = async (req: Request, res: Response) => {
   try {
