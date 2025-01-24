@@ -54,35 +54,7 @@ El backend utiliza **Node.js**, **Express** y **Mongoose** para integrarse con *
 
 ---
 
-## 3. Configuración e Integración del Backend
-
-### Configuración Inicial
-
-1. Configura las variables de entorno en un archivo `.env`:
-   ```env
-   PORT=4000
-   MONGO_URI=<tu-uri-de-mongodb>
-   AWS_ACCESS_KEY_ID=<tu-access-key>
-   AWS_SECRET_ACCESS_KEY=<tu-secret-key>
-   ```
-2. Instala las dependencias:
-
-   ```bash
-   npm install
-   ```
-
-3. Inicia el servidor:
-   ```bash
-   npm run dev
-   ```
-
-### Integración con el Frontend
-
-- El backend proporciona endpoints REST que el frontend consume para manejar clientes, transacciones y reportes.
-
----
-
-## 4. Instrucciones para Ejecutar la Aplicación Completa
+## 3. Instrucciones para Ejecutar la Aplicación Completa
 
 ### Backend
 
