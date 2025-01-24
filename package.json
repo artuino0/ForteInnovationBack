@@ -14,6 +14,7 @@
     "@aws-sdk/lib-storage": "^3.732.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "moment": "^2.30.1",
     "mongoose": "^8.9.5",
     "morgan": "^1.10.0",
     "tsconfig-paths": "^4.2.0",

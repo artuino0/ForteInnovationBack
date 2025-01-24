@@ -1,0 +1,12 @@
+_id,cliente_id,nombre,email,telefono,direccion,__v
+679112b9de1cf9abde4a3590,12345,Arturo Muñoz,arturomunoz@gmail.com,1234567890,Mi Calle Ficticia 123,0
+679115fd9fed2295712095e0,cli001,Juan Pérez,juan.perez@example.com,5551234567,"Av. Reforma 123, CDMX",0
+679116129fed2295712095e5,cli002,María López,maria.lopez@example.com,5557654321,"Calle Juárez 45, Guadalajara",0
+6791164c4c9e59048d2a0480,cli003,Carlos Hernández,carlos.hernandez@example.com,5549876543,"Blvd. Benito Juárez 234, Monterrey",0
+679116bc300e0db6724ea214,cli004,Ana Gómez,ana.gomez@example.com,5565432198,"Paseo de la Reforma 78, Puebla",0
+679116c8fe08d23460b31030,cli005,Luis Torres,luis.torres@example.com,5587654321,"Av. Insurgentes 456, Toluca",0
+679116e628abce53157e552f,cli006,Sofía Martínez,sofia.martinez@example.com,5598765432,"Calle Independencia 67, Querétaro",0
+679116ee28abce53157e5532,cli007,Diego Fernández,diego.fernandez@example.com,5534567890,"Av. Hidalgo 890, León",0
+679116f328abce53157e5535,cli008,Laura Sánchez,laura.sanchez@example.com,5512345678,"Calle Morelos 123, Mérida",0
+679116fa28abce53157e5538,cli009,Miguel Castro,miguel.castro@example.com,5543219876,"Blvd. Miguel Alemán 678, Cancún",0
+6791170028abce53157e553b,cli010,Elena Ruiz,elena.ruiz@example.com,5576543210,"Av. Chapultepec 789, Tijuana",0
